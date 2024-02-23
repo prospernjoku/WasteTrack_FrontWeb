@@ -1,0 +1,65 @@
+[
+    {
+        "designation":"Admin",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "Admin",
+        "lastname": "Test",
+        "role":"admin",
+        "id" : 1
+    },
+    {
+        "designation":"Subadmin",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "Admin",
+        "lastname": "Test",
+        "role":"subadmin",
+        "id" : 2
+    },
+    {
+        "designation":"WasteManagementAgent",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "Waste Management",
+        "lastname": "Agent",
+        "role":"wasteMgmtAgency",
+        "id" : 3
+    },
+    {
+        "designation":"GovtAgency",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "State Govt",
+        "lastname": "Agency",
+        "role":"govtAgency",
+        "id" : 4
+    },
+    {
+        "designation":"WasteManagementStaff",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "Waste Management",
+        "lastname": "Staff",
+        "role":"subadmin",
+        "id" : 5
+    },
+    {
+        "designation":"Vendor",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "Vendor",
+        "lastname": "Test",
+        "role":"vendor",
+        "id" : 6
+    },
+    {
+        "designation":"Vendor Staff",
+        "email": "example@example.com",
+        "password": "password",
+        "firstname": "Vendor",
+        "lastname": "Staff",
+        "role":"vendorStaff",
+        "id" : 7
+    }
+]

@@ -1,0 +1,46 @@
+.chart-container{
+    .recharts-cartesian-axis-tick-line{
+        display: none;
+    }
+    .recharts-xAxis{
+        .recharts-cartesian-axis-tick-value {
+            transform: translateY(10px);
+        }
+    }
+    .recharts-yAxis{
+        .recharts-cartesian-axis-tick-value {
+            transform: translateX(-20px);
+        }
+        .recharts-cartesian-axis-tick{
+            transform: translateY(-5px);
+        }
+    }
+    .recharts-cartesian-grid-vertical{
+        display: none;
+    }
+    .recharts-legend-wrapper{
+        transform: translateY(20px);
+    }
+}
+.chart-container-grid{
+    .recharts-cartesian-axis-tick-line{
+        display: none;
+    }
+    .recharts-xAxis{
+        .recharts-cartesian-axis-tick-value {
+            transform: translateY(10px);
+        }
+    }
+    .recharts-yAxis{
+        .recharts-cartesian-axis-tick-value {
+            transform: translateX(-20px);
+        }
+        .recharts-cartesian-axis-tick{
+            transform: translateY(-5px);
+        }
+    }
+    .recharts-legend-wrapper{
+        transform: translateY(20px);
+    }
+   
+}

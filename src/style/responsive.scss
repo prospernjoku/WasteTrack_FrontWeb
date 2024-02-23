@@ -1,0 +1,106 @@
+// DESKTOP
+@media screen and (max-width: 992px) {
+  .content-wrapper {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .d-none-sm {
+    display: none;
+  }
+  .dashboardTop-cardLeft,.dashboardTop-cardRight{
+    display: none!important;
+  }
+
+}
+// TABLET VIEW
+@media screen and (max-width: 768px) {
+  .profile-layout {
+    flex-direction: column;
+    position: relative !important;
+    .profile-tab-menu {
+      position: sticky;
+      top: 17vh;
+      width: 100%;
+    }
+  }
+  .heading-1 {
+    font-weight: 600;
+  }
+  .auth-form-right {
+    border-radius: 0px;
+    height: auto;
+    padding: 20px 20px;
+    .auth-page-form {
+      .auth-form-btn {
+        font-size: 20px;
+        padding: 0px 0px;
+      }
+    }
+  }
+  .auth-page-left-bottom {
+    align-items: center;
+    img {
+      transform: scaleX(1) translateX(0px) !important;
+    }
+  }
+  .form-custom-style {
+    .ant-form-item-control-input-content>input {
+      height: 50px;
+    }
+    .ant-input-password {
+      height: 50px;
+    }
+    .ant-select {
+      .ant-select-selector {
+        height: 50px;
+      }
+    }
+  }
+  .tableTop-wrapper .filter-selector .ant-select{
+    width :100%;
+  }
+  .tableTop-wrapper .page-selector .ant-select{
+    width: 100%;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media screen and (max-width: 576px) {
+  .form-card {
+    padding: 20px 10px 20px 10px !important;
+  }
+  .order-details-table{
+    display: none;
+  }
+  .order-details-data{
+    display: block!important;
+  }
+ 
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media screen and (min-width: 1200px) {
+ 
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media screen and (min-width: 1400px) {
+  
+  // .profile-tab-menu {
+  //   width: 300px;
+  // }
+}
+
+@media screen and (max-width: 1700px) {
+  .dashTopCard-img {
+    img {
+      height: 65px;
+      width: 65px;
+    }
+  }
+  
+
+  // .profile-tab-menu {
+  //   width: 300px;
+  // }
+}

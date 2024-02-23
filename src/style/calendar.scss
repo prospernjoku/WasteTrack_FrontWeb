@@ -1,0 +1,92 @@
+.calendar-wrapper{
+    .calendar-badge{
+        height: 35px;
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    .ant-picker-calendar .ant-picker-panel{
+        background: none;
+        border-top :none;
+
+        th,td{
+            height: 50px;
+        }
+        th{
+            font-size: 18px;
+            font-weight: 500;
+            color : $gray-color;
+        }
+        td{
+            font-size: 16px;
+            font-weight: 500;
+            color : $heading-black;
+        }
+    }
+    .calendar-btn{
+        background : none;
+        border : none;
+        font-size: 30px;
+        color :$gray-color;
+    }
+    // .calendar{
+    //     width: 100%;
+    //     th{
+    //         height: 50px;
+    //         text-transform: uppercase;
+    //         font-size: 18px;
+    //         font-weight: 500;
+    //         color : $gray-color;
+    //     }
+    //     td{
+    //         height: 50px;
+    //         text-transform: uppercase;
+    //         font-size: 18px;
+    //         font-weight: 500;
+    //         color : $heading-black;
+    //         text-align: center;
+    //     }
+    //     .calendar-badge{
+    //         display: flex;
+    //         align-items: center;
+    //         justify-content: center;
+    //         height: 35px;
+    //         width: 35px;
+    //         border-radius: 50%;
+    //     }
+    // }
+}
+
+.dashboard-calendar{
+    background : $white-pure;
+    box-shadow: $card-shadow;
+    border-radius: 16px;
+    .calendar-badge{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    // .calendar{
+    //     th{
+    //         text-align: center;
+    //         font-size: 16px;
+    //         font-weight: 400;
+    //     }
+    //     td{
+    //         height: 40px;
+    //         text-align: center;
+    //         font-size: 14px;
+    //         div{
+    //             display: flex;
+    //             justify-content: center;
+    //         }
+    //     }
+       
+    // }
+}
+

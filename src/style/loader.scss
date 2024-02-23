@@ -1,0 +1,53 @@
+.lds-dual-ring {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    // margin: 8px;
+    border-radius: 50%;
+    border: 6px solid $white-pure;
+    border-color: $white-pure transparent $white-pure transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  // ======================================================== SHIMMER ========================================================================
+
+.shimmer {
+  background: #f6f7f8;
+  background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background-repeat: no-repeat;
+  // background-size: 800px 104px;
+  display: inline-block;
+  position: relative;
+  border-radius: 5px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
+}
+
+
+@keyframes placeholderShimmer {
+  0% {
+      background-position: -468px 0;
+  }
+
+  100% {
+      background-position: 468px 0;
+  }
+}
